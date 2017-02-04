@@ -1,0 +1,22 @@
+@font-face {
+		font-family: "Indie Flower";
+		src: url("https://fonts.googleapis.com/css?family=Barrio|Indie+Flower|Sansita"); 
+		
+		font-family: "Bahiana";
+		src: url("https://fonts.googleapis.com/css?family=Bahiana");
+}
+
+h1 {
+	font-family: "Indie Flower", cursive;
+	font-size: 150%;		
+}
+
+h2 {
+	font-size: 120%;
+	font-family: "Bahiana", cursive;
+}
+
+body {
+	font-size: small;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
