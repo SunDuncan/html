@@ -1,0 +1,80 @@
+@font-face {
+		font-family: "Indie Flower";
+		src: url("https://fonts.googleapis.com/css?family=Barrio|Indie+Flower|Sansita"); 
+		
+		font-family: "Bahiana";
+		src: url("https://fonts.googleapis.com/css?family=Bahiana");
+}
+
+h1,h2 {
+	color: #cc6600;
+	border-bottom: thin dotted #888888;
+}
+
+h1 {
+	font-family: "Indie Flower", cursive;
+	font-size: 150%;		
+}
+
+h2 {
+	font-size: 120%;
+	font-family: "Bahiana", cursive;
+	font-weight: normal; 
+}
+
+body {
+	font-size: small;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+table {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+
+td , th {
+	border: thin dotted gray;
+	padding: 5px;	
+}
+
+caption {
+	font-style: italic;
+	padding-top: 8px;
+}
+
+.centeralign {
+	text-align: center;
+}
+
+.rightalign {
+	text-align: right;
+}
+
+th {
+	background-color: #cc6600;
+}
+
+/*tr:nth-child(2n+1) {
+	background-color: #fcba7a;
+}*/
+.cellcolor {
+	background-color: #fcba7a;
+}
+
+table table th {
+	background-color: white;
+}
+
+li {
+	list-style-image: url(images/backpack.gif);
+	padding-top: 5px;
+	margin-left: 20px;
+	
+}
